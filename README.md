@@ -1,8 +1,17 @@
-# openai-api-plugin README
+# OpenAI API Plugin
 
-This is the README for your extension "openai-api-plugin". After writing up a brief description, we recommend including the following sections.
+This is a VS Code extension that aims to bring the full Open AI API to VS Code with a user-friendly interface.
 
 ## Features
+
+### Completion API
+Select text and use context menu or keyboard shortcut to fetch a completion and insert it under the selection.
+
+### Chat API
+Prompt Chat-GPT by typing `@ai <prompt_to_chatgpt>`
+
+
+___
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
@@ -14,9 +23,15 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+`openai` sdk
 
 ## Extension Settings
+
+- API key input, 
+- max_tokens
+- temperature
+- etc
+
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
@@ -38,34 +53,3 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
